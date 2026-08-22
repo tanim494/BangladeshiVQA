@@ -1,8 +1,3 @@
-<!--
-  BEFORE YOU PUBLISH — replace every [PLACEHOLDER] in this repo:
-  see the "Before you publish" checklist at the bottom of this file.
--->
-
 # BangladeshiVQA
 
 **A culturally grounded Bangla Visual Question Answering benchmark.**
@@ -20,7 +15,7 @@ evaluation code**, and the **SmolVLM2 fine-tuning configuration and LoRA adapter
 **full dataset — all 2,068 images, 7,038 QA pairs, and the train/val/test splits — is hosted
 on Hugging Face** (see [Download](#download)).
 
-- 📄 **Paper:** [PAPER_LINK_OR_DOI]
+- 📄 **Paper:** NA
 - 🤗 **Full dataset on Hugging Face:** https://huggingface.co/datasets/tanim494/BangladeshiVQA
 - 📦 **Dataset DOI:** [10.57967/hf/10089](https://doi.org/10.57967/hf/10089)
 - ⚖️ **License:** Annotations under [CC BY-NC 4.0](LICENSE); images remain under original ownership (non-commercial academic use). See [NOTICE](NOTICE.md).
@@ -267,7 +262,7 @@ If you use BangladeshiVQA, please cite the paper (see [CITATION.cff](CITATION.cf
   title     = {BangladeshiVQA: Evaluating Geo-Cultural and Tiered Multimodal Reasoning in Bangladeshi Context},
   author    = {Ahsanul Karim Tanim and Durjoy Saha},
   year      = {2026},
-  booktitle = {[VENUE]},
+  booktitle = {NA},
   note      = {Dataset: https://github.com/tanim494/BangladeshiVQA},
   url       = {[PAPER_LINK_OR_DOI]}
 }
