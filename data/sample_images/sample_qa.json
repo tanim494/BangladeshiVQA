@@ -1,0 +1,548 @@
+[
+  {
+    "image_id": "CS_0002",
+    "category": "Human Activities & Daily Life",
+    "qa_pairs": [
+      {
+        "q_type": "Attribute",
+        "level": "Level 2",
+        "question": "ভ্যান টেনে নেওয়া ব্যক্তির টি-শার্ট কোন রঙের?",
+        "answer": "কালো"
+      },
+      {
+        "q_type": "Attribute",
+        "level": "Level 2",
+        "question": "ভ্যানে থাকা ব্যক্তিটি কোন অবস্থায় আছে?",
+        "answer": "অজ্ঞান"
+      },
+      {
+        "q_type": "Existence",
+        "level": "Level 1",
+        "question": "ভ্যানের ওপরে শায়িত ব্যক্তির পায়ে জুতা আছে?",
+        "answer": "না"
+      }
+    ]
+  },
+  {
+    "image_id": "CS_0003",
+    "category": "Human Activities & Daily Life",
+    "qa_pairs": [
+      {
+        "q_type": "OCR",
+        "level": "Level 3",
+        "question": "দোকানের ওপর থাকা সাইনবোর্ডে কী লেখা আছে?",
+        "answer": "সামির এন্টারপ্রাইজ"
+      },
+      {
+        "q_type": "Counting",
+        "level": "Level 1",
+        "question": "সামনে উজ্জ্বল হলুদ রঙের পাঞ্জাবি পরা কয়জন ব্যক্তি হেঁটে যাচ্ছে?",
+        "answer": "১ জন"
+      },
+      {
+        "q_type": "Attribute",
+        "level": "Level 2",
+        "question": "অংশগ্রহণকারীদের বহন করা ব্যানারটি কোন রঙের?",
+        "answer": "কালো"
+      },
+      {
+        "q_type": "Existence",
+        "level": "Level 1",
+        "question": "পেছনে পাহাড় আছে?",
+        "answer": "না"
+      }
+    ]
+  },
+  {
+    "image_id": "CS_0004",
+    "category": "Human Activities & Daily Life",
+    "qa_pairs": [
+      {
+        "q_type": "OCR",
+        "level": "Level 3",
+        "question": "ব্যানারের মাঝখানে লাল রঙে বড় করে কী লেখা আছে?",
+        "answer": "বিক্ষোভ মিছিল"
+      },
+      {
+        "q_type": "Attribute",
+        "level": "Level 2",
+        "question": "মিছিলে অংশগ্রহণকারীদের অধিকাংশের পরনে কী আছে?",
+        "answer": "টুপি ও পাঞ্জাবি"
+      },
+      {
+        "q_type": "Existence",
+        "level": "Level 1",
+        "question": "স্লোগানরত দলটির ওপরে কি পাখি দেখা যাচ্ছে?",
+        "answer": "না"
+      },
+      {
+        "q_type": "Attribute",
+        "level": "Level 2",
+        "question": "ব্যানারে থাকা ব্যক্তির ছবিটি কী আকৃতির?",
+        "answer": "বৃত্তাকার"
+      }
+    ]
+  },
+  {
+    "image_id": "CS_0008",
+    "category": "Culture & Arts",
+    "qa_pairs": [
+      {
+        "q_type": "Attribute",
+        "level": "Level 2",
+        "question": "ডিজিটাল ঘড়িতে সময় কোন রঙে প্রদর্শিত হচ্ছে?",
+        "answer": "উজ্জ্বল সবুজ"
+      },
+      {
+        "q_type": "Existence",
+        "level": "Level 1",
+        "question": "মেঝেতে কি মাদুর বিছানো আছে?",
+        "answer": "হ্যাঁ"
+      },
+      {
+        "q_type": "Attribute",
+        "level": "Level 2",
+        "question": "কক্ষের দেয়াল কী দিয়ে তৈরি?",
+        "answer": "টিন এবং ইট"
+      }
+    ]
+  },
+  {
+    "image_id": "CS_0009",
+    "category": "Culture & Arts",
+    "qa_pairs": [
+      {
+        "q_type": "Existence",
+        "level": "Level 1",
+        "question": "কথা বলা ব্যক্তির হাতে কী আছে?",
+        "answer": "কুরআন"
+      },
+      {
+        "q_type": "Attribute",
+        "level": "Level 2",
+        "question": "কুরআন হাতে থাকা ব্যক্তির পাগড়ি কোন রঙের?",
+        "answer": "সাদা"
+      },
+      {
+        "q_type": "Counting",
+        "level": "Level 1",
+        "question": "সেখানে কয়জন শিশু বসে আছে?",
+        "answer": "২ জন"
+      }
+    ]
+  },
+  {
+    "image_id": "CS_0011",
+    "category": "Culture & Arts",
+    "qa_pairs": [
+      {
+        "q_type": "Counting",
+        "level": "Level 1",
+        "question": "সিলিংয়ে কয়টি পাখা ঝুলছে?",
+        "answer": "৫ টি"
+      },
+      {
+        "q_type": "Attribute",
+        "level": "Level 2",
+        "question": "মসজিদের মেঝে কোন রঙের মার্বেল টাইলস দিয়ে তৈরি?",
+        "answer": "সাদা"
+      },
+      {
+        "q_type": "Existence",
+        "level": "Level 1",
+        "question": "দাঁড়িয়ে থাকা ব্যক্তির হাতে কী আছে?",
+        "answer": "কুরআন"
+      }
+    ]
+  },
+  {
+    "image_id": "CS_0055",
+    "category": "Food & Cuisine",
+    "qa_pairs": [
+      {
+        "q_type": "Counting",
+        "level": "Level 1",
+        "question": "পাতে কয়টি আইড় মাছ রাখা আছে?",
+        "answer": "২ টি"
+      },
+      {
+        "q_type": "Attribute",
+        "level": "Level 2",
+        "question": "মাছগুলোর পাখনা কোন রঙের?",
+        "answer": "লাল"
+      },
+      {
+        "q_type": "Existence",
+        "level": "Level 1",
+        "question": "মাছগুলো কি পানিতে?",
+        "answer": "না"
+      }
+    ]
+  },
+  {
+    "image_id": "CS_0086",
+    "category": "Food & Cuisine",
+    "qa_pairs": [
+      {
+        "q_type": "Attribute",
+        "level": "Level 2",
+        "question": "ঝুড়িটি কোন রঙের?",
+        "answer": "নীল"
+      },
+      {
+        "q_type": "Existence",
+        "level": "Level 1",
+        "question": "ঝুড়িতে কি আম রাখা আছে?",
+        "answer": "হ্যাঁ"
+      },
+      {
+        "q_type": "Attribute",
+        "level": "Level 2",
+        "question": "আমগুলো কোন রঙের?",
+        "answer": "সবুজ, হলুদ"
+      }
+    ]
+  },
+  {
+    "image_id": "CS_0087",
+    "category": "Food & Cuisine",
+    "qa_pairs": [
+      {
+        "q_type": "Existence",
+        "level": "Level 1",
+        "question": "ঝুড়িতে কি কাঁচা আম রাখা আছে?",
+        "answer": "হ্যাঁ"
+      },
+      {
+        "q_type": "Attribute",
+        "level": "Level 2",
+        "question": "আমের খোসা কোন রঙের?",
+        "answer": "সবুজ"
+      },
+      {
+        "q_type": "Attribute",
+        "level": "Level 2",
+        "question": "কাটা আমের ওপর কিসের গুঁড়ো দেখা যাচ্ছে?",
+        "answer": "মসলার গুঁড়ো"
+      }
+    ]
+  },
+  {
+    "image_id": "CS_0020",
+    "category": "Geography & Places",
+    "qa_pairs": [
+      {
+        "q_type": "Attribute",
+        "level": "Level 2",
+        "question": "পানি কোন রঙের?",
+        "answer": "সবুজ"
+      },
+      {
+        "q_type": "Counting",
+        "level": "Level 1",
+        "question": "পানিতে কয়টি বাঁশের ভেলা ভাসছে?",
+        "answer": "১ টি"
+      },
+      {
+        "q_type": "Existence",
+        "level": "Level 1",
+        "question": "ভেলার ওপর থাকা মহিলার পা দেখা যাচ্ছে?",
+        "answer": "না"
+      },
+      {
+        "q_type": "Existence",
+        "level": "Level 1",
+        "question": "পানির একপাশে কি উঁচু পাথুরে পাহাড় দেখা যাচ্ছে?",
+        "answer": "হ্যাঁ"
+      }
+    ]
+  },
+  {
+    "image_id": "CS_0027",
+    "category": "Geography & Places",
+    "qa_pairs": [
+      {
+        "q_type": "Attribute",
+        "level": "Level 2",
+        "question": "ব্যক্তিটির টি-শার্ট কোন রঙের?",
+        "answer": "আকাশি"
+      },
+      {
+        "q_type": "Attribute",
+        "level": "Level 2",
+        "question": "কেউ বসে আছে?",
+        "answer": "না"
+      },
+      {
+        "q_type": "Existence",
+        "level": "Level 1",
+        "question": "আকাশে কি মেঘ দেখা যাচ্ছে?",
+        "answer": "হ্যাঁ"
+      }
+    ]
+  },
+  {
+    "image_id": "CS_0029",
+    "category": "Geography & Places",
+    "qa_pairs": [
+      {
+        "q_type": "Counting",
+        "level": "Level 1",
+        "question": "মাটির পথে কয়জন মানুষকে হেঁটে যেতে দেখা যাচ্ছে?",
+        "answer": "৩ জন"
+      },
+      {
+        "q_type": "Attribute",
+        "level": "Level 2",
+        "question": "কুঁড়েঘরগুলোর চাল কী দিয়ে তৈরি?",
+        "answer": "খড়"
+      },
+      {
+        "q_type": "Existence",
+        "level": "Level 1",
+        "question": "রাস্তায় গাড়ি আছে?",
+        "answer": "না"
+      },
+      {
+        "q_type": "Reasoning",
+        "level": "Level 3",
+        "question": "কিসের আলোতে জলাশয়ের জল ঝলমল করছে?",
+        "answer": "সূর্যের আলোতে"
+      }
+    ]
+  },
+  {
+    "image_id": "CS_0001",
+    "category": "Transportation",
+    "qa_pairs": [
+      {
+        "q_type": "Counting",
+        "level": "Level 1",
+        "question": "কয়টি সিএনজি অটোরিকশা দেখা যাচ্ছে?",
+        "answer": "২ টি"
+      },
+      {
+        "q_type": "Attribute",
+        "level": "Level 2",
+        "question": "সিএনজি অটোরিকশাগুলো কোন রঙের?",
+        "answer": "সবুজ"
+      },
+      {
+        "q_type": "Existence",
+        "level": "Level 1",
+        "question": "রাস্তায় কি ভ্যান আছে?",
+        "answer": "হ্যাঁ"
+      }
+    ]
+  },
+  {
+    "image_id": "CS_0033",
+    "category": "Transportation",
+    "qa_pairs": [
+      {
+        "q_type": "OCR",
+        "level": "Level 3",
+        "question": "গাড়ির নম্বর প্লেটে বাংলা অক্ষরে কী লেখা আছে?",
+        "answer": "কুমিল্লা ল-০৭"
+      },
+      {
+        "q_type": "Counting",
+        "level": "Level 1",
+        "question": "গাড়ির সামনের বাম্পারে কয়টি তারকা চিহ্ন আঁকা আছে?",
+        "answer": "২ টি"
+      },
+      {
+        "q_type": "Attribute",
+        "level": "Level 2",
+        "question": "টয়োটা জিপ গাড়িটি কোন রঙের?",
+        "answer": "মেরুন"
+      },
+      {
+        "q_type": "Existence",
+        "level": "Level 1",
+        "question": "গাড়ির ওপরে বসা ব্যক্তির পায়ে জুতা আছে?",
+        "answer": "না"
+      }
+    ]
+  },
+  {
+    "image_id": "CS_0049",
+    "category": "Transportation",
+    "qa_pairs": [
+      {
+        "q_type": "OCR",
+        "level": "Level 3",
+        "question": "ফার্মেসির ওপরে থাকা সাইনবোর্ডটিতে কী নাম লেখা রয়েছে?",
+        "answer": "বরিশাল ফার্মেসী"
+      },
+      {
+        "q_type": "Existence",
+        "level": "Level 1",
+        "question": "দোকানের কাঠের টুল রাখা আছে?",
+        "answer": "হ্যাঁ"
+      },
+      {
+        "q_type": "Attribute",
+        "level": "Level 2",
+        "question": "বাংলা লেখাটি কোন রঙের?",
+        "answer": "লাল"
+      }
+    ]
+  },
+  {
+    "image_id": "CS_0018",
+    "category": "Flora & Fauna",
+    "qa_pairs": [
+      {
+        "q_type": "Attribute",
+        "level": "Level 2",
+        "question": "সিঁড়িতে দাঁড়িয়ে থাকা কুকুরটি কোন রঙের?",
+        "answer": "বাদামি"
+      },
+      {
+        "q_type": "Existence",
+        "level": "Level 1",
+        "question": "পানিতে মাছ দেখা যাচ্ছে?",
+        "answer": "না"
+      },
+      {
+        "q_type": "Counting",
+        "level": "Level 1",
+        "question": "পানিতে কয়টি কুমিরের মাথা ও পিঠ ভাসছে?",
+        "answer": "১ টি"
+      },
+      {
+        "q_type": "Attribute",
+        "level": "Level 2",
+        "question": "ঘাটের ওপর দাঁড়িয়ে থাকা ব্যক্তিটির শার্ট কোন রঙের?",
+        "answer": "নীল"
+      }
+    ]
+  },
+  {
+    "image_id": "CS_0039",
+    "category": "Flora & Fauna",
+    "qa_pairs": [
+      {
+        "q_type": "Counting",
+        "level": "Level 1",
+        "question": "মাঠে কয়টি ঘোড়া দাঁড়িয়ে আছে?",
+        "answer": "২ টি"
+      },
+      {
+        "q_type": "Attribute",
+        "level": "Level 2",
+        "question": "ঘোড়া ২ টি কোন রঙের?",
+        "answer": "খয়েরি এবং কালো"
+      },
+      {
+        "q_type": "Existence",
+        "level": "Level 1",
+        "question": "ঘোড়া দুটির পেছনে কি গরু আছে?",
+        "answer": "না"
+      },
+      {
+        "q_type": "Attribute",
+        "level": "Level 2",
+        "question": "ঘোড়াগুলো কোন রঙের মাঠে দাঁড়িয়ে আছে?",
+        "answer": "সবুজ"
+      }
+    ]
+  },
+  {
+    "image_id": "CS_0061",
+    "category": "Flora & Fauna",
+    "qa_pairs": [
+      {
+        "q_type": "Counting",
+        "level": "Level 1",
+        "question": "খাঁচার ভেতর কয়টি পাখি বসে আছে?",
+        "answer": "২ টি"
+      },
+      {
+        "q_type": "Existence",
+        "level": "Level 1",
+        "question": "টেবিলের ওপর কি কোনো খাঁচা রাখা আছে?",
+        "answer": "হ্যাঁ"
+      }
+    ]
+  },
+  {
+    "image_id": "CS_0047",
+    "category": "Scene Text & Signs",
+    "qa_pairs": [
+      {
+        "q_type": "Attribute",
+        "level": "Level 2",
+        "question": "স্লেটটি কোন রঙের?",
+        "answer": "কালো"
+      },
+      {
+        "q_type": "OCR",
+        "level": "Level 3",
+        "question": "বোর্ডের উপরের অংশে বাংলা অক্ষরে লেখা শেষ কথাটি কী?",
+        "answer": "রোল :"
+      },
+      {
+        "q_type": "Existence",
+        "level": "Level 1",
+        "question": "পুরো বোর্ডে কি খালি?",
+        "answer": "না"
+      }
+    ]
+  },
+  {
+    "image_id": "CS_0060",
+    "category": "Scene Text & Signs",
+    "qa_pairs": [
+      {
+        "q_type": "OCR",
+        "level": "Level 3",
+        "question": "গেটের ওপরে কী লিখা আছে?",
+        "answer": "সানন্দবাড়ী কলেজ"
+      },
+      {
+        "q_type": "Attribute",
+        "level": "Level 2",
+        "question": "ছবিতে গেট কোন রঙের?",
+        "answer": "সাদা"
+      },
+      {
+        "q_type": "Existence",
+        "level": "Level 1",
+        "question": "গেটের বামে কী আছে?",
+        "answer": "লোগো"
+      },
+      {
+        "q_type": "Existence",
+        "level": "Level 1",
+        "question": "গেটের সামনে কি মানুষের ভিড় আছে?",
+        "answer": "হ্যাঁ"
+      }
+    ]
+  },
+  {
+    "image_id": "CS_0083",
+    "category": "Scene Text & Signs",
+    "qa_pairs": [
+      {
+        "q_type": "OCR",
+        "level": "Level 3",
+        "question": "লাল সাইনবোর্ডে বড় করে কী লেখা আছে?",
+        "answer": "রহমানীয়া হোটেল"
+      },
+      {
+        "q_type": "Counting",
+        "level": "Level 1",
+        "question": "কয়জন মানুষ দেখা যাচ্ছে?",
+        "answer": "৪ জন"
+      },
+      {
+        "q_type": "Existence",
+        "level": "Level 1",
+        "question": "মোটরসাইকেল দেখা যাচ্ছে?",
+        "answer": "হ্যাঁ"
+      }
+    ]
+  }
+]

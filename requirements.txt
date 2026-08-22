@@ -1,0 +1,32 @@
+# BangladeshiVQA — Python dependencies
+#
+# Versions are intentionally unpinned (except where a floor matters); install the current
+# release compatible with your environment. Not every package is needed for every task —
+# see the grouping below. A CUDA build of torch is required for the fine-tuning notebook.
+
+# --- Data / images / viewer ---
+pandas
+numpy
+tqdm
+Pillow
+matplotlib          # sample viewer (examples/explore.ipynb)
+huggingface_hub     # download the full dataset (images + annotations) from Hugging Face
+
+# --- Closed-source evaluation (code/evaluation/close_source_test.py) ---
+openai                    # OpenRouter API via the OpenAI-compatible client
+
+# --- Generation & LLM-as-judge (Google Gemini) ---
+google-genai              # Gemini — caption/QA generation (API key) and LLM-as-judge
+google-cloud-aiplatform   # Vertex AI backend (used by code/evaluation/llm_judge.py)
+json-repair               # robust parsing of model JSON output
+
+# --- Metrics (code/evaluation/evaluation_metrics.ipynb) ---
+bert-score                # BERTScore F1 (bert-base-multilingual-cased)
+rouge-score
+
+# --- Fine-tuning (code/training/smolvlm2_finetuning.ipynb) ---
+torch
+transformers>=4.50.0
+peft                      # also required to load code/training/smolvlm2_lora_adapter/
+bitsandbytes
+accelerate

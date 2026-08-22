@@ -1,0 +1,44 @@
+cff-version: 1.2.0
+message: "If you use BangladeshiVQA, please cite the paper and dataset."
+title: "BangladeshiVQA: Evaluating Geo-Cultural and Tiered Multimodal Reasoning in Bangladeshi Context"
+abstract: >-
+  A culturally grounded Bangla Visual Question Answering benchmark of 2,068 Bangladeshi
+  images and 7,038 open-ended question-answer pairs across three cognitive levels
+  (Perception, Representation, Cognition) and seven image categories. The first Bangla VQA
+  dataset with dedicated in-image Bangla scene-text (OCR) questions and leak-free
+  image-ID-based splits.
+type: dataset
+license: CC-BY-NC-4.0
+version: "1.0.0"
+date-released: "2026-08-22"
+doi: "10.57967/hf/10089"
+url: "https://huggingface.co/datasets/tanim494/BangladeshiVQA"
+keywords:
+  - visual question answering
+  - Bangla
+  - Bengali
+  - multimodal
+  - cultural benchmark
+  - OCR
+  - low-resource languages
+repository-code: "https://github.com/tanim494/BangladeshiVQA"
+authors:
+  - given-names: "Ahsanul"
+    family-names: "Karim"
+    alias: "Tanim"
+    email: "tanim494@gmail.com"
+    # affiliation: "[AFFILIATION]"
+  - given-names: "Durjoy"
+    family-names: "Saha"
+preferred-citation:
+  type: conference-paper
+  title: "BangladeshiVQA: Evaluating Geo-Cultural and Tiered Multimodal Reasoning in Bangladeshi Context"
+  year: 2026
+  collection-title: "[VENUE]"
+  url: "[PAPER_LINK_OR_DOI]"
+  authors:
+    - given-names: "Ahsanul"
+      family-names: "Karim"
+      alias: "Tanim"
+    - given-names: "Durjoy"
+      family-names: "Saha"
