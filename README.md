@@ -274,21 +274,3 @@ If you use BangladeshiVQA, please cite the paper (see [CITATION.cff](CITATION.cf
 ```
 
 ---
-
-## ✅ Before you publish (repo maintainer checklist)
-
-This repository is built **ready to publish** but intentionally uses placeholders. Before
-making it public and linking it from the paper:
-
-- [ ] **Rotate/revoke all API keys** that ever appeared in the original research folder
-      (Google AI Studio / Vertex AI, Hugging Face, and any others). They have been removed
-      from this repo but should be considered compromised.
-- [ ] Replace `[AUTHOR_NAMES]`, `[YEAR]`, `[VENUE]` in `README.md` and `CITATION.cff`.
-- [ ] Replace `[CONTACT_EMAIL]` in `TAKEDOWN.md`, `NOTICE.md`, and `CITATION.cff`.
-- [ ] Upload the **full dataset** — all 2,068 images **and** the annotations
-      (`annotations/qa_pairs.json` + `annotations/splits/{train,val,test}.json`) — to
-      **Hugging Face** (and optionally archive on **Zenodo**); paste the URLs/DOI into
-      `[HF_DATASET_URL]`, `[HF_DATASET_REPO]`, and `[ZENODO_DOI_URL]` here.
-- [ ] Replace `[PAPER_LINK_OR_DOI]` and `[ORG]` (GitHub org/user) throughout.
-- [ ] Skim `code/` once more for any local paths you want to generalize.
-- [ ] Push to GitHub and paste the final repo URL into the paper.
