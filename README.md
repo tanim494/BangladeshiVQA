@@ -3,7 +3,7 @@
 **A culturally grounded Bangla Visual Question Answering benchmark.**
 
 BangladeshiVQA is a native Bangla VQA benchmark of **2,068 Bangladeshi images** and
-**7,038 open-ended question–answer pairs**, organized into **three cognitive levels** and
+**7,197 open-ended question–answer pairs**, organized into **three cognitive levels** and
 **seven image categories**. To our knowledge it is the **first Bangla VQA dataset with
 dedicated in-image Bangla scene-text (OCR) questions**, and the first to split strictly by
 image ID to prevent train/test leakage.
