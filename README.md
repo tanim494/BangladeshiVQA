@@ -108,7 +108,7 @@ and understand a scene before it can *reason* about its cultural meaning (L3).
 
 BangladeshiVQA is built with a human-in-the-loop pipeline: images are collected and
 filtered, Gemini 3.5 Flash drafts an objective Bangla caption and then candidate QA pairs,
-and two expert native-Bangla reviewers validate, edit, and re-label every pair against the
+and native-Bangla reviewers validate, edit, and re-label every pair against the
 image (10,186 raw pairs → 7,197 final). The caption/QA-generation code, the Gemini
 evaluation and metric code, and the SmolVLM2 fine-tuning configuration are released in
 [`code/`](code/).
