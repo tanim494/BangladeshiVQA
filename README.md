@@ -41,8 +41,7 @@ on Hugging Face** (see [Download](#download)).
 - **Leak-free splits.** Data is split by unique **image ID**, so no image appears in both
   train and test.
 - **Reproducible evaluation.** Gemini evaluation scripts, metric implementations
-  (Exact Match, Refined Accuracy, BERTScore F1), and fine-tuning configs are released here;
-  the full prompt set is in the paper's Appendix A.3.
+  (Exact Match, Refined Accuracy, BERTScore F1), and fine-tuning configs are released here.
 
 ## Dataset at a glance
 
