@@ -49,30 +49,30 @@ on Hugging Face** (see [Download](#download)).
 | | |
 |---|---|
 | Images | 2,068 |
-| QA pairs | 7,038 |
-| Splits (by image ID) | train 5,628 · val 704 · test 706 |
+| QA pairs | 7,197 |
+| Splits (by image ID) | train 5,759 (80%) · val 720 (10%) · test 718 (10%) |
 | Cognitive levels | 3 (Perception, Representation, Cognition) |
 | Question types | Existence, Counting, Attribute, Reasoning, OCR |
 | Image categories | 7 |
 | Language | Bangla (Bengali) |
-| QA pairs / image (mean) | 3.40 |
+| QA pairs / image (mean) | 3.48 (min–max: 2–5) |
 | Unique answers | 1,524 |
-| Unique vocabulary tokens | 4,218 |
-| Mean question length | 5.87 words (33.56 chars) |
-| Mean answer length | 1.44 words (6.16 chars) |
+| Unique vocabulary tokens | 4,241 |
+| Mean question length | 5.94 words (34.02 chars) |
+| Mean answer length | 1.45 words (6.30 chars) |
 
 ### Question taxonomy (QA pairs)
 
 | Level | Question type | Count | Share |
 |---|---|---:|---:|
-| **Level 1 — Perception** | | **3,245** | **46.11%** |
-| | Existence | 2,069 | 29.40% |
-| | Counting | 1,176 | 16.71% |
-| **Level 2 — Representation** | | **3,280** | **46.60%** |
-| | Attribute | 3,280 | 46.60% |
-| **Level 3 — Cognition** | | **513** | **7.29%** |
-| | Reasoning | 375 | 5.33% |
-| | OCR | 138 | 1.96% |
+| **Level 1 — Perception** | | **3,248** | **45.13%** |
+| | Existence | 2,069 | 28.78% |
+| | Counting | 1,177 | 16.35% |
+| **Level 2 — Representation** | | **3,279** | **45.56%** |
+| | Attribute | 3,279 | 45.56% |
+| **Level 3 — Cognition** | | **670** | **9.31%** |
+| | Reasoning | 481 | 6.68% |
+| | OCR | 189 | 2.63% |
 
 Levels are derived from question type: Existence/Counting → Level 1, Attribute → Level 2,
 Reasoning/OCR → Level 3. The hierarchy is designed so each level isolates one capability
@@ -103,14 +103,14 @@ and understand a scene before it can *reason* about its cultural meaning (L3).
 | TaiwanVQA | 1,000 | 2,000 | Native (Taiwan) | Multiple Choice | ✗ | — | Manual Annotation |
 | BVQA | 3,545 | 17,725 | Existing Datasets | Open-ended | ✗ | Question ID | GPT-3.5 + Human Validation |
 | ChitroJera | 15,147 | 15,292 | Existing Datasets | Open-ended | ✗ | Question ID | GPT-4 Turbo + Human Validation |
-| **BangladeshiVQA (Ours)** | **2,068** | **7,038** | **Native (Primary + Public)** | **Open-ended (Multi-Tier)** | **✓** | **Image ID** | **Gemini 3.5 Flash + Human Validation** |
+| **BangladeshiVQA (Ours)** | **2,068** | **7,197** | **Native (Primary + Public)** | **Open-ended (Multi-Tier)** | **✓** | **Image ID** | **Gemini 3.5 Flash + Human Validation** |
 
 ## Dataset construction
 
 BangladeshiVQA is built with a human-in-the-loop pipeline: images are collected and
 filtered, Gemini 3.5 Flash drafts an objective Bangla caption and then candidate QA pairs,
 and two expert native-Bangla reviewers validate, edit, and re-label every pair against the
-image (10,186 raw pairs → 7,038 final). The caption/QA-generation code, the Gemini
+image (10,186 raw pairs → 7,197 final). The caption/QA-generation code, the Gemini
 evaluation and metric code, and the SmolVLM2 fine-tuning configuration are released in
 [`code/`](code/).
 
