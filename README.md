@@ -12,7 +12,7 @@ This repository accompanies the paper *"BangladeshiVQA: Evaluating Geo-Cultural 
 Multimodal Reasoning in Bangladeshi Context."* It contains a **preview sample of the
 dataset**, the **caption/QA-generation and Gemini
 evaluation code**, and the **SmolVLM2 fine-tuning configuration and LoRA adapter**. The
-**full dataset — all 2,068 images, 7,038 QA pairs, and the train/val/test splits — is hosted
+**full dataset — all 2,068 images, 7,197 QA pairs, and the train/val/test splits — is hosted
 on Hugging Face** (see [Download](#download)).
 
 - 📄 **Paper:** NA
